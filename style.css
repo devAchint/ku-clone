@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 41px;
+    align-items: center;
+    background-color: #a80000;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.navigations ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigations ul li {
+    margin: 10px;
+    color: white;
+}
+
+.ku-title {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+}
+
+.title_1 {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title_2 {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#naac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_2 a {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #a80000;
+    color: white;
+}
+
+.title_3 {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_3 a {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #a80000;
+    color: white;
+}
+
+.ku-logo-img {
+    width: 100px;
+}
+
+.g20-logo-img {
+    width: 120px;
+    height: 80px;
+}
+
+.nav_2 {
+    background-color: #21316c;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    border-bottom: orange 4px solid;
+    justify-content: space-evenly;
+}
+
+.nav_2 button {
+    border: 0;
+    background-color: #21316c;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown button {
+    padding: 10px 0 10px 0;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+}
+
+.drop-content {
+    position: absolute;
+    display: none;
+    min-width: 200px;
+}
+
+.drop-content a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.drop-content a:hover {
+    background-color: #a80000;
+    color: white;
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+}
+
+.bulletin {
+    width: 100%;
+    padding: 10px;
+}
+
+.bulletin .item {
+    margin: 20px 0 10px 0px;
+    height: 40px;
+}
+
+.bulletin .item h2 {
+    font-weight: bold;
+    font-size: 20px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    background-color: #a80000;
+    width: fit-content;
+    color: white;
+    position: absolute;
+    z-index: 2;
+}
+
+.bulletin .item marquee {
+    background-color: #e6e6e6;
+    align-content: center;
+    height: inherit;
+    font-weight: bold;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.vc-message {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.speak {
+    width: 60%;
+    border-right: 3px dotted #a80000;
+}
+
+.speak .detail {
+    margin-top: 10px;
+    display: flex;
+}
+
+.speak .detail .message {
+    margin: 0 10px 0 10px;
+}
+
+.speak .detail .message p {
+    line-height: 1.5;
+}
+
+.speak .detail .message button {
+    background-color: #a80000;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.about-us {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.about-us p {
+    margin-top: 10px;
+}
+
+.about-us button {
+    background-color: #a80000;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.about-us p {
+    line-height: 1.5;
+}
+
+.about-us h2 {
+    margin-top: 10px;
+}
+
+.tour {
+    display: flex;
+    padding: 10px;
+}
+
+.tour .video {
+    width: 33%;
+    padding: 10px;
+}
+
+.tour .video iframe {
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.tour .news {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    justify-content: space-evenly;
+}
+
+.tour .news button {
+    background-color: #a80000;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    margin: 0px 20px 0 20px;
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tour .seminars {
+    width: 33%;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tour .seminars button {
+    background-color: #a80000;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    margin: 0px 20px 0 20px;
+    padding: 8px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.tour .seminars marquee {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.tour-container h1 {
+    color: #a80000;
+}
+
+.notices {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.notices .type {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.notices .type button {
+    background-color: #a80000;
+    border-radius: 10px;
+    color: white;
+    border: 0;
+    margin: 0px 20px 0 20px;
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.notices .latest {
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.notices .latest marquee {
+    margin: 20px;
+    height: 200px;
+}
+
+.notices .helpline {
+    width: 30%;
+}
+
+.notices .helpline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.notices .helpline h2 {
+    text-align: center;
+}
+
+.notices .helpline table {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.notices .helpline table td {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-attachment: fixed;
+    background-image: url(images/stats_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stats div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats .number h1,
+.stats .number h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.stats div hr {
+    width: 50px;
+    margin: 10px 0 10px 0;
+    border: 2px solid;
+    border-color: red;
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    padding: 50px 0;
+    background-color: #15305b;
+}
+
+.footer .footer-logo{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer .footer-logo img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.footer .quick-links{
+    width: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.footer .quick-links hr{
+    width: 50px;
+    margin: 10px 0;
+}
+.footer .location{
+    width: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer .location hr{
+    width: 50px;
+    margin: 10px 0;
+}
