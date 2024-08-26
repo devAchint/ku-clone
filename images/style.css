@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 400px;
+    width: 80%;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: url(images/three.jpg);
+    animation-name: slides;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slides {
+    0% {
+        background-image: url(images/two.jpg);
+    }
+
+    35% {
+        background-image: url(images/three.jpg);
+    }
+
+    75% {
+        background-image: url(images/four.jpg);
+    }
+}
